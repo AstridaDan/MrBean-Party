@@ -1,0 +1,148 @@
+/* *,*:after,*before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+#container {
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size:45px;
+  font-weight:bold;
+  position:absolute;
+  margin-top: -300px;
+  text-align:center;
+}
+
+.disco{
+	z-index: -4;
+	position: absolute;
+	height: 120%;
+	width: 100%;
+	top: -10%;
+	margin-bottom: -120px;
+}
+.box{
+	background-color: #fff;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	z-index: -1;
+	top: 40%;
+}
+#flip {
+  height:70px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:50px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#b500da;
+}
+#flip div:first-child div {
+  background:#00ccff;
+}
+#flip div:last-child div {
+  background:#cc0066;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+p {
+  position: absolute;;
+  width:100%;
+  bottom:30px;
+  font-size:12px;
+  color:rgb(209, 207, 207);
+  margin-top:200px;
+  text-align: center;
+  z-index: 2;
+}
+
+body{
+	font-family: arial;
+	margin: 0;
+	min-height: 100vh;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: -60px;
+}
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height:40px;
+	min-width: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#61143b,#090799);
+	color: #fff;
+	border-radius: 30px;
+	border: 0px;
+	height:60px;
+	margin-left: 100px;
+	transition: 0.3s;
+}
+
+
+#pirmais{
+	margin-left: -600px;
+	position:absolute;
+	margin-top: 55px;
+}
+#otrais{
+	margin-left: -350px;
+	position:absolute;
+	margin-top: 50px;
+}
+#tresais{
+	margin-left: 25px;
+	position:absolute;
+	margin-top: 45px;
+}
+#ceturtais{
+	margin-left: 300px;
+	position:absolute;
+	margin-top: 90px;
+}
+
+
+#video1{
+    filter:contrast(2);
+	margin-left: 90px;
+}
+#video2{
+    filter:contrast(2);
+	margin-left: 90px;
+}
+#video3{
+    filter:contrast(2);
+	margin-left: 90px;
+}
+#video4{
+    filter:contrast(2);
+	margin-left: 90px;
+}
+
