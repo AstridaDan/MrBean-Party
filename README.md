@@ -7,3 +7,5 @@ Not responsive! Open on PC!
 
 Find it here:
 https://bean-aa7c3.web.app/
+
+GitHub Pages : https://astridadan.github.io/MrBean-Party/
